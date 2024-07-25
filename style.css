@@ -59,8 +59,8 @@
 .button-container {
     display: inline-flex;
     background-color: sienna;
-    padding: 10px 20px;
-    border: 1px solid gray;
+    padding: 10px 10px;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
@@ -70,7 +70,7 @@
     text-decoration: none;
     color: white;
     background-color: rgb(165, 101, 42);
-    border: 1px solid white;
+    border: 2px solid black;
     border-radius: 5px;
     transition: background-color 0.3 ease;
 }
@@ -91,7 +91,7 @@
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
-    border: 1px solid white;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
