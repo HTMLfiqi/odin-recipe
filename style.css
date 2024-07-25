@@ -16,8 +16,12 @@
     justify-content: center;
 }
 
-body {
+.page1 {
     background-color: lightskyblue;
+}
+
+.page2 {
+    background-color: burlywood;
 }
 
 .cookies,
@@ -30,11 +34,29 @@ body {
     margin: auto;
 }
 
-img {
+.img1 {
     display: block;
     margin: 0 auto;
     height: auto;
     max-width: 15%;
     margin-top: 20px;
+}
 
+.cookie-img {
+    max-width: 25%;
+}
+
+.button-container {
+    display: inline-block;
+    background-color: sienna;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.button-home {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
 }
