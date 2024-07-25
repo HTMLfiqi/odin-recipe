@@ -29,3 +29,12 @@ body {
     width: 300px;
     margin: auto;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 15%;
+    margin-top: 20px;
+
+}
