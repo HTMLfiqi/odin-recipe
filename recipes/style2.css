@@ -55,3 +55,63 @@
     border: 3px solid white;
     border-radius: 5px;
 }
+
+/* THIS IS WHERE THE TACO LINK STARTS */
+
+.taco-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.tacoimg-container {
+    float: right;
+    clear: right;
+    margin-left: 20px;
+    border: 3px solid black;
+    max-width: 25%;
+}
+
+.page4 {
+    background-color: green;
+    color: black;
+}
+
+.button-container3 {
+    display: inline-flex;
+    background-color: rgb(97, 179, 10);
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button-home3 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+}
+
+.button-home3:hover {
+    background-color: white;
+}
+
+.header3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(97, 179, 10);
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+    border: 3px solid black;
+    border-radius: 5px;
+}
